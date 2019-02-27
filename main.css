@@ -1,0 +1,170 @@
+html body {
+    align-content: center;
+    margin: auto;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#tagline {
+    font-family: 'Cardo', serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: darkgrey;
+    letter-spacing: 3px;
+    margin-top: -10px;
+}
+
+#container1 {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    margin: 0px 15px 0px 15px;
+}
+
+#navbar {
+    overflow: hidden;
+}
+
+#navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+#navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#welcome-section {
+    min-height: 55vh;
+    padding-top: 35vh;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    color: black;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: auto;
+    padding: 35px 0px 40px 0px;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+#tribute-page {
+    grid-column: 2;
+}
+
+#tribute-img {
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 50%;
+}
+
+.project-title {
+    font-family: 'Cardo', serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: darkgrey;
+    text-align: center;
+}
+
+#contact-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    margin-bottom: 25px;
+}
+
+#contact-section a {
+    text-decoration: none;
+}
+
+#contact-git {
+    grid-column: 1;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: aqua;
+    background-color: aqua;
+    
+}
+
+#contact-facebook {
+    grid-column: 2;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: aqua;
+    background-color: aqua;
+    
+}
+
+#contact-email {
+    grid-column: 3;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: aqua;
+    background-color: aqua;   
+}
+
+.contact-link {
+    font-family: 'Cardo', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkgrey;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+}
+
+footer {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 20vh;
+}
+
