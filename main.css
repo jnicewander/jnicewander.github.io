@@ -92,10 +92,20 @@ h2 {
 }
 
 #tribute-page {
+    grid-column: 1;
+}
+
+#survey-page {
     grid-column: 2;
 }
 
 #tribute-img {
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 50%;
+}
+
+#survey-img {
     border-style: solid;
     border-color: aquamarine;
     border-radius: 50%;
