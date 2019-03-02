@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 56px;
     color: white;
     letter-spacing: 2px;
 }
@@ -18,13 +18,13 @@ h1 {
 #tagline {
     font-family: 'Cardo', serif;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 24px;
     color: white;
     letter-spacing: 3px;
     margin-top: -10px;
 }
 
-#container1 {
+.container1 {
     background: #1D976C;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -37,7 +37,6 @@ ul {
 li a {
     color: white;
     font-family: 'Oswald', sans-serif;
-    font-size: 14px;
     margin: 0px 15px 0px 15px;
 }
 
@@ -55,7 +54,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 24px;
 }
 
 #navbar a:hover {
@@ -89,6 +88,8 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     justify-items: center;
+    min-height: 55vh;
+    padding: 10vh 0 10vh 0;
 }
 
 #tribute-page {
@@ -100,15 +101,12 @@ h2 {
 }
 
 #tribute-img {
-    border-style: solid;
-    border-color: aquamarine;
-    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #survey-img {
-    border-style: solid;
-    border-color: aquamarine;
-    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .project-title {
@@ -119,12 +117,16 @@ h2 {
     text-align: center;
 }
 
+#contact {
+    margin-bottom: 25px;
+}
+
 #contact-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     justify-items: center;
-    margin-bottom: 55px;
+    padding-bottom: 25vh;
     
 }
 
@@ -176,10 +178,16 @@ h2 {
 }
 
 footer {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 20vh;
+    background: black;
     align-content: center;
+    padding: 25px 0 10px 0;
 }
 
+footer p {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Cardo', serif;
+    text-transform: uppercase;
+    
+}
