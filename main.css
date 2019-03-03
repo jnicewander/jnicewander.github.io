@@ -83,6 +83,7 @@ h2 {
     padding: 35px 0px 40px 0px;
 }
 
+/* Projects Section */
 #projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -116,14 +117,14 @@ h2 {
     color: darkgrey;
     text-align: center;
 }
-
+/* Contact Section */
 #contact {
     margin-bottom: 25px;
 }
 
 #contact-section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     justify-items: center;
     padding-bottom: 25vh;
@@ -136,34 +137,42 @@ h2 {
 
 #contact-git {
     grid-column: 1;
-    width: 100px;
+    width: 150px;
     height: 100px;
     border-style: solid;
-    border-radius: 50%;
     border-color: #93F9B9;
     background-color: #93F9B9;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact-freeCode {
+    grid-column: 2;
+    width: 150px;
+    height: 100px;
+    border-style: solid;
+    border-color: #93F9B9;
+    background-color: #93F9B9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #contact-facebook {
-    grid-column: 2;
-    width: 100px;
+    grid-column: 3;
+    width: 150px;
     height: 100px;
     border-style: solid;
-    border-radius: 50%;
     border-color: #93F9B9;
     background-color: #93F9B9;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #contact-email {
-    grid-column: 3;
-    width: 100px;
+    grid-column: 4;
+    width: 150px;
     height: 100px;
     border-style: solid;
-    border-radius: 50%;
     border-color: #93F9B9;
-    background-color: #93F9B9;   
+    background-color: #93F9B9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact-link {
@@ -176,7 +185,7 @@ h2 {
     vertical-align: middle;
     line-height: 100px;
 }
-
+/* Footer Section */
 footer {
     background: black;
     align-content: center;
