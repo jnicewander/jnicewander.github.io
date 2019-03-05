@@ -52,9 +52,10 @@ li a {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 24px 10px 24px;
     text-decoration: none;
     font-size: 24px;
+    letter-spacing: 3px;
 }
 
 #navbar a:hover {
@@ -62,7 +63,7 @@ li a {
     color: white;
 }
 
-#navbar a.active {
+#navbar a:active {
     background-color: #4CAF50;
     color: white;
 }
@@ -182,6 +183,18 @@ footer p {
     color: white;
     text-align: center;
     font-family: 'Cardo', serif;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
+}
+
+/* Mobile media query */
+@media only screen and (max-device-width: 480px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+/* desktop media query to hide things */
+@media only screen and (min-device-width: 481px) {
+    .show-mobile {
+        display: none;
+    }
 }
