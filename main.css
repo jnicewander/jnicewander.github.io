@@ -91,18 +91,30 @@ h2 {
     grid-template-rows: auto;
     justify-items: center;
     min-height: 55vh;
-    padding: 10vh 0 10vh 0;
+    padding: 10vh 0 vh 0;
 }
 
 #tribute-page {
     grid-column: 1;
+    background-color: #202020;
+}
+
+#tribute-page:hover img {
+    opacity: 0.2;
 }
 
 #survey-page {
     grid-column: 2;
 }
+#temp-page {
+    grid-column: 3;
+}
+#temp-page2{
+    grid-column: 1;
+}
 
 .shadows {
+    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project-title {
@@ -181,16 +193,14 @@ footer p {
 }
 
 /* Mobile media query */
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 480px) {
     .hide-mobile {
         display: none;
     }
-    #container {
-        
-    }
+   
 }
 /* desktop media query to hide things */
-@media only screen and (min-device-width: 481px) {
+@media screen and (min-device-width: 481px) {
     .show-mobile {
         display: none;
     }
