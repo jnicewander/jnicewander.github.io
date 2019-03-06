@@ -1,7 +1,10 @@
 html body {
     align-content: center;
     margin: auto;
-    
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,12 +25,6 @@ h1 {
     color: white;
     letter-spacing: 3px;
     margin-top: -10px;
-}
-
-.container1 {
-    background: #1D976C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 ul {
@@ -75,7 +72,10 @@ li a {
     margin: 0;
 }
 
+/* Projects Section */
+
 h2 {
+    background: white;
     color: black;
     font-size: 32px;
     letter-spacing: 2px;
@@ -84,8 +84,8 @@ h2 {
     padding: 35px 0px 40px 0px;
 }
 
-/* Projects Section */
 .projects {
+    background: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -113,15 +113,16 @@ h2 {
 }
 /* Contact Section */
 #contact {
-    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 #contact-section {
+    background: white;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     justify-items: center;
-    padding-bottom: 25vh;
+    padding: 25vh 0;
     
 }
 
@@ -183,6 +184,9 @@ footer p {
 @media only screen and (max-device-width: 480px) {
     .hide-mobile {
         display: none;
+    }
+    #container {
+        
     }
 }
 /* desktop media query to hide things */
