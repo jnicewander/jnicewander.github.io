@@ -2,83 +2,14 @@ html body {
     align-content: center;
     margin: auto;
     background: rgb(4, 29, 43);
+    font-family: 'Permanent Marker', cursive;
 }
 
 h1 {
     font-size: 4vh;
     text-transform: uppercase;
-    font-family: 'Permanent Marker', cursive;
     color: white;
 }
-.section-headers {
-    font-family: 'Permanent Marker', cursive;
-
-}
-/*Header --- Nav*/
-#myName {
-    margin-left: 10px;
-}
-
-ul {
-    list-style: none;
-}
-
-li a {
-    color: white;
-    font-family: 'Permanent Marker', cursive;
-    margin: 0px 10px 0px 10px;
-}
-header {
-    top: 0;
-    position: fixed;
-    width: 100%;
-    padding: 10vmin 1rem;
-    background-color: black;
-}
-
-#navbar {
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    width: 100%;
-    padding: 2%;
-}
-
-#navbar a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 0px 5px 10px 5px;
-    text-decoration: none;
-    font-size: 2.5vw;
-}
-
-#navbar a:hover {
-    background-color: #ddd;
-    color: white;
-}
-
-#navbar a:active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-/*Welcome Section */
-#welcome-section {
-    width: 100%;
-    height: ;
-    background: rgb(4, 29, 43);
-    text-align: center;
-}
-.tagline {
-    font-family: 'Permanent Marker', cursive;
-    text-transform: uppercase;
-    font-size: 7.5vmin;
-    color: white;
-    line-height: 50vh;
-}
-
-/* Projects Section */
 h2 {
     background: white;
     color: rgb(214, 202, 202);
@@ -88,6 +19,68 @@ h2 {
     margin: auto;
     padding: 35px 0px 40px 0px;
 }
+ul {
+    list-style: none;
+}
+
+/* -----Header --- Nav----- */
+header {
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of the links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+
+/* -----Welcome Section----- */
+#welcome-section {
+    width: 100%;
+    padding-top: 75px;
+    background: rgb(4, 29, 43);
+    text-align: center;
+}
+.tagline {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    font-size: 7.5vmin;
+    color: white;
+    /*line-height: 50vh;*/
+}
+
+/* Projects Section */
 
 .project {
     width: 100%;
@@ -101,13 +94,7 @@ h2 {
 
 
 #tribute-page {
-    background: repeating-linear-gradient(
-    45deg,
-    #606dbc,
-    #606dbc 25px,
-    #ddbb24 25px,
-    #b14d2e 150px
-    );
+    background-color: #0099CC;
 }
 img a {
     size: 15vh;
@@ -120,6 +107,7 @@ img a {
     font-size: 1.5vmin;
     text-align: center;
 }
+
 /* Contact Section */
 #contact {
     padding-bottom: 25px;
@@ -189,12 +177,32 @@ footer p {
     text-transform: uppercase;   
 }
 
-/* Mobile media query */
-@media screen and (max-device-width: 480px) {
+/* ----MEDIA QUERIES----- */
 
-   
+/* When screen < 600px wide, hide all links, except "HOME" and Show "ICON". */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
 }
-/* desktop media query to hide things */
-@media screen and (min-device-width: 481px) {
 
+/* The "responsive" class is added to the topnav with 
+JavaScript when the user clicks on the icon. 
+This class makes the topnav look good on small screens 
+(display the links vertically instead of horizontally)  */
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position:relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
