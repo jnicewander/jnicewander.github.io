@@ -1,62 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="index.js"></script>
-    <title>Justin Nicewander's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/74a3e3f03c.js" crossorigin="anonymous"></script>
+    <title>Justin Nicewander</title>
 </head>
-
 <body>
-<header>
-    <nav class="topnav" id="myTopnav">
-        <a href="#home" class="active">J. N.</a>
-        <a href="#welcome-section">About</a>
-        <a href="#projects-header">Work</a>
-        <a href="#contact">Contact</a>  
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </nav>
-</header>
-<!-- 
-<div id="welcome-section">
-    <p class="tagline">hello, welcome to my portfolio.</p>
-</div>
-
-<h2 class="section-headers">These are some projects I've worked on...</h2>
-
-<div id="tribute-page" class="project">
-    <a href="https://jnicewander.github.io/tribute_page"><img class="grayScale" src="tributePageMiyamoto.png" alt="Visit my tribute Page!"></a>
-    <p class="project-title">Shigeru Miyamoto Tribute Page</p>
-</div>
-    
-<div id="survey-page" class="project">
-    <a href="https://jnicewander.github.io/survey_form/"><img src="surveyFormThumb.png" alt="Visit my survey page!"></a>
-    <p class="project-title">Generic Survey Page</p>
-</div>
-    
-<div id="temp-page" class="project">
-    <a href="https://jnicewander.github.io/survey_form/"><img src="placeHolder.png" alt="Placeholder"></a>
-    <p class="project-title">Temp Placeholder</p>
-</div>
-
-<div id="temp-page2" class="project">
-    <a href="https://jnicewander.github.io/survey_form/"><img src="placeHolder.png" alt="Placeholder"></a>
-<p class="project-title">Temp Placeholder</p>
-</div>
-
-<h2 class="section-headers">Contact me here...</h2>
-<div id="contact-section">    
-    <a class="profile-link" href="https://github.com/jnicewander"><div id="contact-git"><div id="github-link" class="contact-link">github.</div></div></a>
-    
-    <a class="profile-link" href="https://www.facebook.com/nicewander1"><div id="contact-facebook"><div id="facebook-link" class="contact-link">facebook.</div></div></a>
-    
-    <a class="profile-link" href="mailto:jnicewander@live.com"><div id="contact-email"><div id="email-link" class="contact-link">email.</div></div></a>
-    
-    <a class="profile-link" href="https://www.freecodecamp.org/dark_salad"><div id="contact-freeCode"><div id="freeCode-link" class="contact-link">freeCodeCamp.</div></div></a>
-</div>
-<footer><p>This portfolio is a work in progress. &copy;2019</p></footer> -->
+    <div class="wrapper">
+        <div class="myName wrapper">
+           <!--<<div class>="angled-box"></div>-->
+            <h1 class="title">Justin|<span class="lastName">Nicewander</span></h1>
+            <p class="subTitle">Web Developer</p>
+            <div class="social">
+                <a href="https://github.com/jnicewander"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/darksaladmoney"></a><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/justin-nicewander-15858978/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:jnicewander@live.com"><i class="far fa-envelope"></i></a>
+            </div>
+            <hr class="divider-line">
+        </div>
+        <div class="skills wrapper">
+            <h1 class="title">Skills</h1>
+            <ul class="skill-list">
+               <li class="skill-item">HTML5</li>
+               <li class="skill-item">CSS3</li>
+               <li class="skill-item">JavaScript</li>
+               <li class="skill-item">SCSS/SASS</li>
+               <li class="skill-item">Version Control (Git)</li>
+               <li class="skill-item">Package Management (npm)</li>
+               <li class="skill-item">Adobe Illustrator</li>
+               <li class="skill-item">Figma</li>
+            </ul>
+            <hr class="divider-line">
+        </div>
+        <div class="projects wrapper">
+            <h1 class="title">Projects</h1>
+            <ul class="projects-list">
+                <li class="project-tile">
+                    <a href="https://jnicewander.github.io/tribute_page/">
+                        <img src="images/tributePageThumb.png" alt="Thumbnail of Tribute Page Project" class="thumbnail">
+                    </a>
+                </li>
+                <li class="project-tile">
+                    <a href="https://jnicewander.github.io/survey_form/">
+                        <img src="images/surveyFormThumb.png" alt="Thumbnail of Survey Form Page Project" class="thumbnail">
+                    </a>
+                </li>
+                <li class="project-tile">
+                    <a href="https://jnicewander.github.io/tribute_page/">
+                        <img src="images/tributePageThumb.png" alt="Thumbnail of Tribute Page Project" class="thumbnail">
+                    </a>
+                </li>
+                <li class="project-tile">
+                    <a href="https://jnicewander.github.io/tribute_page/">
+                        <img src="images/tributePageThumb.png" alt="Thumbnail of Tribute Page Project" class="thumbnail">
+                    </a>
+                </li>
+            </ul>
+            <hr class="divider-line">
+        </div>
+        <div class="about wrapper">
+            <h1 class="title">About Me</h1>
+            <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <hr class="divider-line">
+        <footer>
+            <p>This is a test.</p>
+        </footer>
+    </div>
 </body>
 </html>

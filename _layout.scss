@@ -1,0 +1,60 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.myName {
+    height: 50vh;
+}
+
+// Skills section
+
+.skills {
+    height: 50vh;
+    text-align: center;
+}
+
+.skill-list {
+    margin: 1em;
+    padding: .5em;
+}
+
+.skill-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+// Projects section
+
+.projects {
+    margin: 1em auto;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+// About Me section
+
+.about-content {
+    height: 50vh;
+    text-align: center;
+    margin: 1em;
+    padding: .5em;
+}
+
+// Footer
+
+footer {
+    height: 10vh;
+    width: 100%;
+}

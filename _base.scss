@@ -1,0 +1,33 @@
+// Variables
+
+$title-font: 'Roboto', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+$regular: 400;
+$bold: 700;
+
+// Global Resets
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
