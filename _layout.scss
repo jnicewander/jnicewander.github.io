@@ -8,48 +8,63 @@
 }
 
 .myName {
+    margin-top: 2em;
     height: 50vh;
+
+    .social {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
 }
 
 // Skills section
 
 .skills {
-    height: 50vh;
+    margin-top: 1.5em;
     text-align: center;
-}
 
-.skill-list {
-    margin: 1em;
-    padding: .5em;
-}
+    .skill-list {
+        margin: 1em;
+        padding: .5em;
 
-.skill-item {
-    display: inline-block;
-    margin: 10px;
+        .skill-item {
+            display: inline-block;
+            margin: 10px;
+        }
+    }
 }
 
 // Projects section
 
 .projects {
     margin: 1em auto;
-}
 
-.projects-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+    .projects-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+        .thumbnail {
+            margin: 1.5em;
+            width: 30vw;
+            height: auto;
+        }
+    }
 }
 
 // About Me section
+.about {
+    margin-top: 1.5em;
 
-.about-content {
-    height: 50vh;
-    text-align: center;
-    margin: 1em;
-    padding: .5em;
+    .about-content {
+        text-align: center;
+        line-height: 1.5em;
+        margin: 1em;
+        padding: .5em;
+    }
 }
 
 // Footer

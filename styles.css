@@ -44,20 +44,26 @@ a {
 }
 
 .myName {
+  margin-top: 2em;
   height: 50vh;
+}
+
+.myName .social {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .skills {
-  height: 50vh;
+  margin-top: 1.5em;
   text-align: center;
 }
 
-.skill-list {
+.skills .skill-list {
   margin: 1em;
   padding: .5em;
 }
 
-.skill-item {
+.skills .skill-list .skill-item {
   display: inline-block;
   margin: 10px;
 }
@@ -66,7 +72,7 @@ a {
   margin: 1em auto;
 }
 
-.projects-list {
+.projects .projects-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,9 +88,19 @@ a {
   margin: 0 auto;
 }
 
-.about-content {
-  height: 50vh;
+.projects .projects-list .thumbnail {
+  margin: 1.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.about {
+  margin-top: 1.5em;
+}
+
+.about .about-content {
   text-align: center;
+  line-height: 1.5em;
   margin: 1em;
   padding: .5em;
 }
@@ -135,7 +151,6 @@ footer {
   width: 75%;
   border: 0;
   border-top: 1px solid black;
-  margin-top: 4em;
   padding: 0;
 }
 
@@ -143,13 +158,12 @@ footer {
   font-family: "Open Sans", sans-serif;
 }
 
-.thumbnail {
-  margin: 1.5em;
-  width: 30vw;
-  height: auto;
+.about-content {
+  font-family: "Open Sans", sans-serif;
 }
 
-.about-content {
+footer {
+  font-size: .5em;
   font-family: "Open Sans", sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */
