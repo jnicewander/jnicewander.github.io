@@ -4,6 +4,8 @@ To Do List:
 
 ☐ todo ☑ completed ☒ postponed   <----- Copy and paste to create, modify, and delete todo items
 
+☐ PRIORITY #1 - Remove navigation from unordered list, use &: selector on nested styles.
+
 ☐ Replace DIVs with Sections in html, incorporate header for navigation menu
 ☐ Need a Favicon
 ☐ Swap icon fonts w/ SVG icons for faster load time.
