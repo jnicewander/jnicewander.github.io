@@ -1,24 +1,28 @@
 /*.angled-box {
     position: absolute;
     background-color: #00e6e6;
-    width: 100%;
+    width: 150%;
     height: 50px;
     z-index: -1;
-    transform: rotate(-45deg) translateY(-100px);
-    box-shadow: 0 2px 4px #484848;
+    transform: rotate(0deg) translateY(0px);
 }*/
+
+.top-nav {
+    width: 100%;
+    background-color: red;
+}
 
 .title {
     font-family: $title-font;
     font-weight: $regular;
     font-size: 2em;
 
-    .lastName {
+    .last-Name {
         font-weight: $bold;
     }
 }
 
-.subTitle {
+.sub-title {
         font-family: $body-font;
         font-size: 1.2em;
 }
@@ -29,7 +33,7 @@
     i {
         margin: 8px;
         padding: 10px;
-        border: 2px solid black;
+        border: 2px solid #696969;
         border-radius: 50%;
     }
 }
