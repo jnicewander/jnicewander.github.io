@@ -6,22 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/74a3e3f03c.js" crossorigin="anonymous"></script>
     <title>Justin Nicewander | Front-end Developer</title>
 </head>
 <body>
     <div class="wrapper">
-        <nav class="top-nav" id="topNav">
-            <ul class="nav-list">
-                <li class="nav-link"><a href="#skills">Skills</a></li>
-                <li class="nav-link"><a href="#projects">Projects</a></li>
-                <li class="nav-link"><a href="#about">About Me</a></li>
-                <li class="nav-icon"><a href="javascript:void(0);" class="icon" onClick="navFunction()"><i class="fas fa-bars"></i></a></li>
-            </ul>
+        <nav class="nav" id="topNav">
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#about">About Me</a>
+            <a class="nav-icon" href="javascript:void(0);" class="icon" onClick="navFunction()">
+                <i class="fas fa-bars"></i>
+            </a>
         </nav>
-        <div class="my-name wrapper">
+        <div class="title wrapper">
             <!--<div class="angled-box"></div>-->
-            <h1 class="title">Justin|<span class="last-Name">Nicewander</span></h1>
+            <h1 class="name">Justin|<span class="name-last">Nicewander</span></h1>
             <p class="sub-title">Web Developer</p>
             <div class="social">
                 <a href="https://github.com/jnicewander"><i class="fab fa-github"></i></a>
@@ -32,7 +33,7 @@
         </div>
         <hr class="divider-line" id="skills">
         <div class="skills wrapper">
-            <h1 class="title">Skills</h1>
+            <h1 class="name">Skills</h1>
             <ul class="skill-list">
                <li class="skill-item">HTML5</li>
                <li class="skill-item">CSS3</li>
@@ -46,7 +47,7 @@
         </div>
         <hr class="divider-line" id="projects">
         <div class="projects wrapper">
-            <h1 class="title">Projects</h1>
+            <h1 class="name">Projects</h1>
             <ul class="projects-list">
                 <li class="project-tile">
                     <a href="https://jnicewander.github.io/tribute_page/">
@@ -72,7 +73,7 @@
         </div>
         <hr class="divider-line" id="about">
         <div class="about wrapper">
-            <h1 class="title">About Me</h1>
+            <h1 class="name">About Me</h1>
             <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>

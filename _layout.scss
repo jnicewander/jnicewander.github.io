@@ -4,22 +4,7 @@
     text-align: center;
 }
 
-.top-nav {
-    position: absolute;
-    width: 100%;
-    text-align: right;
-
-    .nav-list {
-        margin: .2em .5em;
-
-        .nav-link {
-            margin: .5em;
-        }
-    }
-
-}
-
-.my-name {
+.title {
     display: flex;
     flex-direction: column;
     align-items: center;
