@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -55,11 +56,11 @@ a {
 }
 
 .skills {
-  margin-top: 1.5em;
   text-align: center;
 }
 
 .skills .skill-list {
+  width: 75%;
   margin: 1em;
   padding: .5em;
 }
@@ -72,7 +73,7 @@ a {
   margin: 1em auto;
 }
 
-.projects .projects-list {
+.projects-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,7 +89,7 @@ a {
   margin: 0 auto;
 }
 
-.projects .projects-list .thumbnail {
+.projects-list .thumbnail {
   margin: 1.5em;
   width: 30vw;
   height: auto;
@@ -120,18 +121,24 @@ footer {
 }*/
 .nav {
   position: absolute;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.3em;
   display: block;
   width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
   text-align: right;
-  padding-right: 1.5em;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+@media only screen and (min-width: 768px) {
+  .nav {
+    position: fixed;
+    border-bottom: 1px solid #696969;
+  }
 }
 
 .nav-link {
   display: none;
-  margin: 1em 0;
-  padding: 1.3em;
+  padding: 1em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -197,6 +204,7 @@ footer {
 }
 
 .social {
+  color: #696969;
   font-size: 1.3em;
 }
 
@@ -207,12 +215,19 @@ footer {
   border-radius: 50%;
 }
 
+.social i:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
 .divider-line {
-  display: block;
+  display: inline-block;
   height: 1px;
   width: 75%;
   border: 0;
   border-top: 1px solid black;
+  margin: 2em 0;
   padding: 0;
 }
 

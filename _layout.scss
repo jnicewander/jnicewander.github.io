@@ -20,10 +20,10 @@
 // Skills section
 
 .skills {
-    margin-top: 1.5em;
     text-align: center;
 
     .skill-list {
+        width: 75%;
         margin: 1em;
         padding: .5em;
 
@@ -38,7 +38,7 @@
 .projects {
     margin: 1em auto;
 
-    .projects-list {
+    &-list {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -46,6 +46,7 @@
         justify-content: center;
         margin: 0 auto;
 
+        
         .thumbnail {
             margin: 1.5em;
             width: 30vw;

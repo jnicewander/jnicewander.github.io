@@ -13,14 +13,14 @@
 <body>
     <div class="wrapper">
         <nav class="nav" id="topNav">
-            <a class="nav-link" href="#skills">Skills</a>
-            <a class="nav-link" href="#projects">Projects</a>
-            <a class="nav-link" href="#about">About Me</a>
+            <a class="nav-link" href="#skills" onClick="closeMenu()">Skills</a>
+            <a class="nav-link" href="#projects" onClick="closeMenu()">Projects</a>
+            <a class="nav-link" href="#about" onClick="closeMenu()">About Me</a>
             <a class="nav-icon" href="javascript:void(0);" class="icon" onClick="navFunction()">
                 <i class="fas fa-bars"></i>
             </a>
         </nav>
-        <div class="title wrapper">
+        <div class="title">
             <!--<div class="angled-box"></div>-->
             <h1 class="name">Justin|<span class="name-last">Nicewander</span></h1>
             <p class="sub-title">Web Developer</p>
@@ -32,7 +32,7 @@
             </div>
         </div>
         <hr class="divider-line" id="skills">
-        <div class="skills wrapper">
+        <div class="skills">
             <h1 class="name">Skills</h1>
             <ul class="skill-list">
                <li class="skill-item">HTML5</li>
@@ -46,7 +46,7 @@
             </ul>
         </div>
         <hr class="divider-line" id="projects">
-        <div class="projects wrapper">
+        <div class="projects">
             <h1 class="name">Projects</h1>
             <ul class="projects-list">
                 <li class="project-tile">
@@ -72,7 +72,7 @@
             </ul>
         </div>
         <hr class="divider-line" id="about">
-        <div class="about wrapper">
+        <div class="about">
             <h1 class="name">About Me</h1>
             <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
