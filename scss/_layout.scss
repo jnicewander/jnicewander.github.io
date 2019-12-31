@@ -35,19 +35,23 @@
 // Projects section
 
 .projects {
-   
+
     &-list {
-        color: red;
+        margin-top: 1em;
+        padding-top: .5em;
     }
 
     &-info {
-        background-color: red;
-        background: url();
         padding: .5em;
         margin: .5em;
         border: 1px solid #696969;
         box-shadow: 2px 2px 2px #696969;
         text-align: left;
+
+        &:hover {
+            background: #696969;
+            color: white;
+        }
     }
 }
 

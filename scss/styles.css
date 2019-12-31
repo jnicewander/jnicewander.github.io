@@ -68,18 +68,22 @@ a {
 }
 
 .projects-list {
-  color: red;
+  margin-top: 1em;
+  padding-top: .5em;
 }
 
 .projects-info {
-  background-color: red;
-  background: url();
   padding: .5em;
   margin: .5em;
   border: 1px solid #696969;
   -webkit-box-shadow: 2px 2px 2px #696969;
           box-shadow: 2px 2px 2px #696969;
   text-align: left;
+}
+
+.projects-info:hover {
+  background: #696969;
+  color: white;
 }
 
 .about .about-content {
