@@ -20,7 +20,6 @@
 // Skills section
 
 .skills {
-    text-align: center;
 
     .skill-list {
         width: 75%;
@@ -36,29 +35,24 @@
 // Projects section
 
 .projects {
-    margin: 1em auto;
-
+   
     &-list {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
+    }
 
-        
-        .thumbnail {
-            margin: 1.5em;
-            width: 30vw;
-            height: auto;
-        }
+    &-info {
+        //background-color: red;
+        background: url(images/tributePageThumb.png);
+        padding: .5em;
+        margin: .5em;
+        border: 1px solid #696969;
+        box-shadow: 2px 2px 2px #696969;
+        text-align: left;
     }
 }
 
 // About Me section
 
 .about {
-    margin-top: 1.5em;
 
     .about-content {
         text-align: center;
