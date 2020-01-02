@@ -14,6 +14,11 @@
     .social {
         margin-top: 1.5em;
         margin-bottom: 1.5em;
+        
+        li {
+            display: inline-block;
+            
+        }
     }
 }
 
@@ -22,10 +27,10 @@
 .skills {
 
     .skill-list {
-        width: 75%;
         margin: 1.5em;
 
         .skill-item {
+            display: inline-block;
             margin: 10px;
         }
     }
@@ -36,17 +41,17 @@
 .projects {
 
     &-list {
-        width: 75%;
-        margin: 1.5em;
+        padding: 1.5em;
+        
     }
 
-    &-info {
+    &-item {
         padding: .5em;
         margin: .5em 0;
         border: 1px solid #696969;
         box-shadow: 2px 2px 2px #696969;
         text-align: left;
-
+        
         &:hover {
             background: #696969;
             color: white;
@@ -54,14 +59,14 @@
     }
 }
 
-// About Me section
+//About Me section
 
 .about {
 
     .about-content {
         text-align: center;
         line-height: 1.5em;
-        margin: 1em;
+        margin: 1.5em;
         padding: .5em;
     }
 }

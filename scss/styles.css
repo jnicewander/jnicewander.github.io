@@ -22,7 +22,6 @@ ul, li {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: inline-block;
 }
 
 a {
@@ -58,21 +57,24 @@ a {
   margin-bottom: 1.5em;
 }
 
+.title .social li {
+  display: inline-block;
+}
+
 .skills .skill-list {
-  width: 75%;
   margin: 1.5em;
 }
 
 .skills .skill-list .skill-item {
+  display: inline-block;
   margin: 10px;
 }
 
 .projects-list {
-  width: 75%;
-  margin: 1.5em;
+  padding: 1.5em;
 }
 
-.projects-info {
+.projects-item {
   padding: .5em;
   margin: .5em 0;
   border: 1px solid #696969;
@@ -81,7 +83,7 @@ a {
   text-align: left;
 }
 
-.projects-info:hover {
+.projects-item:hover {
   background: #696969;
   color: white;
 }
@@ -89,7 +91,7 @@ a {
 .about .about-content {
   text-align: center;
   line-height: 1.5em;
-  margin: 1em;
+  margin: 1.5em;
   padding: .5em;
 }
 

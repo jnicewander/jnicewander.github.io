@@ -7,10 +7,11 @@ To Do List:
 ☑ Remove navigation from unordered list 
 ☑ Fix navigation under .responsive class, neeed to lock the icon in place.
 ☑ Navigation bar
+☑ Replace DIVs with Sections in html
 ☐ Remove all repeated css rules like $body-font
 ☐ Replace all colors with hsl equivalent variables
 
-☐ Replace DIVs with Sections in html, incorporate header for navigation menu
+☐ Incorporate header for navigation menu
 ☐ Use &: selector on nested styles.
 ☐ Need a Favicon
 ☐ Research what other people put in their "About Me" sections on portfoliios
