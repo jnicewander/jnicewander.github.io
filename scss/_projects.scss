@@ -2,20 +2,29 @@
 .projects {
 
     &-list {
-    
-
-        @media only screen and (min-width: $bp-tablet) {
-
-        }
+        margin: 1.5em;
+        display: inline-block;
     }
 
     &-item {
-        border: 1px solid #696969;
+        margin: 1em;
         text-align: left;
+        border: 1px solid $color-primary;
+        border-radius: 10px;
         
         &:hover {
-            background: #696969;
-            color: white;
+            box-shadow: 4px 4px 8px $color-primary;
         }
+    }
+    
+    &-title {
+        padding: .5em;
+        border-radius: 10px 10px 0 0;
+        background-color: $color-primary;
+        color: $color-secondary;
+    }
+
+    &-description {
+        padding: .5em;
     }
 }

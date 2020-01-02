@@ -4,9 +4,13 @@ $title-font: 'Roboto', sans-serif;
 $body-font: 'Open Sans', sans-serif;
 $regular: 400;
 $bold: 700;
+
 $bp-tablet: 768px;
 $bp-desktop: 1024px;
 
+$color-primary: hsl(0, 0%, 0%);
+$color-secondary: hsl(0, 0%, 100%);
+$color-accent: hsl(180, 100%, 45.1%);
 // Global Resets
 
 html, body {
@@ -34,6 +38,6 @@ ul, li {
 }
 
 a {
-    color: black;
+    color: $color-primary;
     text-decoration: none;
 }

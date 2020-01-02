@@ -85,7 +85,7 @@ footer {
 
 /*.angled-box {
     position: absolute;
-    background-color: #00e6e6;
+    background-color: $color-accent;
     width: 150%;
     height: 50px;
     z-index: -1;
@@ -106,7 +106,7 @@ footer {
 }
 
 .social {
-  color: #696969;
+  color: black;
   font-size: 1.3em;
 }
 
@@ -119,7 +119,7 @@ footer {
 
 .social i:hover {
   background-color: black;
-  color: white;
+  color: #00e6e6;
   border: 2px solid black;
 }
 
@@ -209,13 +209,31 @@ responsive class is added to
   border-bottom: 1px solid black;
 }
 
+.projects-list {
+  margin: 1.5em;
+  display: inline-block;
+}
+
 .projects-item {
-  border: 1px solid #696969;
+  margin: 1em;
   text-align: left;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .projects-item:hover {
-  background: #696969;
+  -webkit-box-shadow: 4px 4px 8px black;
+          box-shadow: 4px 4px 8px black;
+}
+
+.projects-title {
+  padding: .5em;
+  border-radius: 10px 10px 0 0;
+  background-color: black;
   color: white;
+}
+
+.projects-description {
+  padding: .5em;
 }
 /*# sourceMappingURL=styles.css.map */

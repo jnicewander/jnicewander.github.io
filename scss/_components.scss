@@ -1,6 +1,6 @@
 /*.angled-box {
     position: absolute;
-    background-color: #00e6e6;
+    background-color: $color-accent;
     width: 150%;
     height: 50px;
     z-index: -1;
@@ -22,7 +22,7 @@
 }
 
 .social {
-    color: #696969;
+    color: $color-primary;
     font-size: 1.3em;
 
     i {
@@ -32,9 +32,9 @@
         border-radius: 50%;
 
         &:hover {
-            background-color: black;
-            color: white;
-            border: 2px solid black;
+            background-color: $color-primary;
+            color: $color-accent;
+            border: 2px solid $color-primary;
         }
     }
 }
