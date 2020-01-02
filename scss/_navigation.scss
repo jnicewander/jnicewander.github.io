@@ -1,0 +1,62 @@
+.nav {
+    position: absolute;
+    display: block;
+    width: 100%;
+    font-family: $body-font;
+    font-size: 1.3em;
+    text-align: right;
+    
+    @media only screen and (min-width: $bp-tablet) {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-bottom: 1px solid black;
+    }
+
+    &-link {
+        display: none;
+        padding: 1em;
+
+        @media only screen and (min-width: $bp-tablet) {
+            display: inline-block;
+        }
+
+        &:hover {
+            color: white;
+            background-color: black; 
+        }
+    }
+
+    &-icon {
+        color: #696969;
+        font-size: 1.8em;
+        position: absolute;
+        top: .5em;
+        right: 1em;
+        
+        @media only screen and (min-width: $bp-tablet) {
+            display: none;
+        }
+    }
+
+}
+/*
+responsive class is added to
+ #topNav onClick and removed when
+ an anchor tag is clicked.
+ */
+
+.responsive {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 10vh;
+    background-color: white;
+    
+    .nav-link {
+        display: initial;
+        color: black;
+        margin: 0.5em;
+        padding: .5em;
+        border-bottom: 1px solid black;
+    }
+
+}

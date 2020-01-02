@@ -8,6 +8,7 @@ To Do List:
 ☑ Fix navigation under .responsive class, neeed to lock the icon in place.
 ☑ Navigation bar
 ☐ Remove all repeated css rules like $body-font
+☐ Replace all colors with hsl equivalent variables
 
 ☐ Replace DIVs with Sections in html, incorporate header for navigation menu
 ☐ Use &: selector on nested styles.
