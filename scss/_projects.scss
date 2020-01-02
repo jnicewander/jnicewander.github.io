@@ -1,23 +1,21 @@
 
-// .projects {
+.projects {
 
-//     &-list {
-//         display: flex;
-//         flex-direction: column;
-//     }
+    &-list {
+    
 
-//     &-item {
+        @media only screen and (min-width: $bp-tablet) {
 
-//         border: 1px solid #696969;
-//         text-align: left;
+        }
+    }
+
+    &-item {
+        border: 1px solid #696969;
+        text-align: left;
         
-//         &:hover {
-//             background: #696969;
-//             color: white;
-//         }
-//     }
-// }
-
-.projects-item {
-    text-align: left;
+        &:hover {
+            background: #696969;
+            color: white;
+        }
+    }
 }

@@ -1,7 +1,3 @@
-* {
-  border: 1px solid red !important;
-}
-
 html, body {
   margin: 0;
   padding: 0;
@@ -214,6 +210,12 @@ responsive class is added to
 }
 
 .projects-item {
+  border: 1px solid #696969;
   text-align: left;
+}
+
+.projects-item:hover {
+  background: #696969;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
