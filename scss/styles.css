@@ -15,6 +15,7 @@ html, body {
 h1, h2, h3, h4 {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 ul, li {
@@ -59,8 +60,7 @@ a {
 
 .skills .skill-list {
   width: 75%;
-  margin: 1em;
-  padding: .5em;
+  margin: 1.5em;
 }
 
 .skills .skill-list .skill-item {
@@ -68,13 +68,13 @@ a {
 }
 
 .projects-list {
-  margin-top: 1em;
-  padding-top: .5em;
+  width: 75%;
+  margin: 1.5em;
 }
 
 .projects-info {
   padding: .5em;
-  margin: .5em;
+  margin: .5em 0;
   border: 1px solid #696969;
   -webkit-box-shadow: 2px 2px 2px #696969;
           box-shadow: 2px 2px 2px #696969;

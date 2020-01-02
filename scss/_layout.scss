@@ -23,8 +23,7 @@
 
     .skill-list {
         width: 75%;
-        margin: 1em;
-        padding: .5em;
+        margin: 1.5em;
 
         .skill-item {
             margin: 10px;
@@ -37,13 +36,13 @@
 .projects {
 
     &-list {
-        margin-top: 1em;
-        padding-top: .5em;
+        width: 75%;
+        margin: 1.5em;
     }
 
     &-info {
         padding: .5em;
-        margin: .5em;
+        margin: .5em 0;
         border: 1px solid #696969;
         box-shadow: 2px 2px 2px #696969;
         text-align: left;
