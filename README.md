@@ -10,6 +10,7 @@ To Do List:
 ☑ Replace DIVs with Sections in html
 ☐ Remove all repeated css rules like $body-font
 ☐ Replace all colors with hsl equivalent variables
+☐ move component scss files to separate folder
 
 ☐ Incorporate header for navigation menu
 ☐ Use &: selector on nested styles.

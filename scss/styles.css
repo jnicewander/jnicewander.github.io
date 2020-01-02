@@ -1,3 +1,7 @@
+* {
+  border: 1px solid red !important;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -30,6 +34,7 @@ a {
 }
 
 .wrapper {
+  position: relative;
   margin: 0 auto;
   width: 100%;
   text-align: center;
@@ -68,24 +73,6 @@ a {
 .skills .skill-list .skill-item {
   display: inline-block;
   margin: 10px;
-}
-
-.projects-list {
-  padding: 1.5em;
-}
-
-.projects-item {
-  padding: .5em;
-  margin: .5em 0;
-  border: 1px solid #696969;
-  -webkit-box-shadow: 2px 2px 2px #696969;
-          box-shadow: 2px 2px 2px #696969;
-  text-align: left;
-}
-
-.projects-item:hover {
-  background: #696969;
-  color: white;
 }
 
 .about .about-content {
@@ -224,5 +211,9 @@ responsive class is added to
   margin: 0.5em;
   padding: .5em;
   border-bottom: 1px solid black;
+}
+
+.projects-item {
+  text-align: left;
 }
 /*# sourceMappingURL=styles.css.map */

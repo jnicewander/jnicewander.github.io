@@ -1,4 +1,5 @@
 .wrapper {
+    position: relative;
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -32,29 +33,6 @@
         .skill-item {
             display: inline-block;
             margin: 10px;
-        }
-    }
-}
-
-// Projects section
-
-.projects {
-
-    &-list {
-        padding: 1.5em;
-        
-    }
-
-    &-item {
-        padding: .5em;
-        margin: .5em 0;
-        border: 1px solid #696969;
-        box-shadow: 2px 2px 2px #696969;
-        text-align: left;
-        
-        &:hover {
-            background: #696969;
-            color: white;
         }
     }
 }
