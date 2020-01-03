@@ -12,7 +12,6 @@ To Do List:
 ☑ Use &: selector on nested styles.
 ☐ Need a Favicon
 
-☐ Incorporate header for navigation menu
 ☐ move component scss files to separate folder
 ☐ Research what other people put in their "About Me" sections on portfoliios
     ☐ Create a list of things to include and modify to suit me
@@ -26,4 +25,5 @@ To Do List:
     ☐ footer
 ☐ Finish redesign of "Unofficial PCS Part Number converter" -- see project for related todo list.
     ☒ Take a screenshot and add it to the projects list
+☒ Incorporate header for navigation menu
 ☒ Remove all repeated css rules like $body-font

@@ -122,14 +122,6 @@ footer {
   font-size: .8em;
 }
 
-/*.angled-box {
-    position: absolute;
-    background-color: $color-accent;
-    width: 150%;
-    height: 50px;
-    z-index: -1;
-    transform: rotate(0deg) translateY(0px);
-}*/
 .nav {
   position: absolute;
   display: block;
