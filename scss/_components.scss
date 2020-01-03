@@ -1,34 +1,18 @@
-/*.angled-box {
-    position: absolute;
-    background-color: $color-accent;
-    width: 150%;
-    height: 50px;
-    z-index: -1;
-    transform: rotate(0deg) translateY(0px);
-}*/
-
 .name {
     font-weight: $regular;
-    font-size: 2em;
 
     &-last {
         font-weight: $bold;
     }
 }
 
-.sub-title {
-        font-family: $body-font;
-        font-size: 1.2em;
-}
-
 .social {
-    color: $color-primary;
     font-size: 1.3em;
 
     i {
         margin: 8px;
         padding: 10px;
-        border: 2px solid #696969;
+        border: 1px solid $color-primary;
         border-radius: 50%;
 
         &:hover {
@@ -52,3 +36,12 @@
 footer {
     font-size: .8em;
 }
+
+/*.angled-box {
+    position: absolute;
+    background-color: $color-accent;
+    width: 150%;
+    height: 50px;
+    z-index: -1;
+    transform: rotate(0deg) translateY(0px);
+}*/

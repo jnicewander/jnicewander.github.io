@@ -83,37 +83,22 @@ footer {
   width: 100%;
 }
 
-/*.angled-box {
-    position: absolute;
-    background-color: $color-accent;
-    width: 150%;
-    height: 50px;
-    z-index: -1;
-    transform: rotate(0deg) translateY(0px);
-}*/
 .name {
   font-weight: 400;
-  font-size: 2em;
 }
 
 .name-last {
   font-weight: 700;
 }
 
-.sub-title {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.2em;
-}
-
 .social {
-  color: black;
   font-size: 1.3em;
 }
 
 .social i {
   margin: 8px;
   padding: 10px;
-  border: 2px solid #696969;
+  border: 1px solid black;
   border-radius: 50%;
 }
 
@@ -137,18 +122,25 @@ footer {
   font-size: .8em;
 }
 
+/*.angled-box {
+    position: absolute;
+    background-color: $color-accent;
+    width: 150%;
+    height: 50px;
+    z-index: -1;
+    transform: rotate(0deg) translateY(0px);
+}*/
 .nav {
   position: absolute;
   display: block;
   width: 100%;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.3em;
   text-align: right;
 }
 
 @media only screen and (min-width: 768px) {
   .nav {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: white;
     border-bottom: 1px solid black;
   }
 }
@@ -170,7 +162,7 @@ footer {
 }
 
 .nav-icon {
-  color: #696969;
+  color: black;
   font-size: 1.8em;
   position: absolute;
   top: .5em;
