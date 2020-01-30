@@ -6,8 +6,8 @@
     text-align: right;
     
     @media only screen and (min-width: $bp-tablet) {
-        background-color: $color-secondary;
-        border-bottom: 1px solid $color-primary;
+        background-color: $color-white;
+        border-bottom: 1px solid $color-black;
     }
 
     &-link {
@@ -19,13 +19,13 @@
         }
 
         &:hover {
-            color: white;
-            background-color: black; 
+            color: $color-white;
+            background-color: $color-black; 
         }
     }
 
     &-icon {
-        color: $color-primary;
+        color: $color-black;
         font-size: 1.8em;
         position: absolute;
         top: .5em;
@@ -48,14 +48,14 @@ responsive class is added to
     flex-direction: column;
     text-align: left;
     padding-top: 10vh;
-    background-color: $color-secondary;
+    background-color: $color-white;
     
     .nav-link {
         display: initial;
-        color: $color-primary;
+        color: $color-black;
         margin: 0.5em;
         padding: .5em;
-        border-bottom: 1px solid $color-primary;
+        border-bottom: 1px solid $color-black;
     }
 
 }
