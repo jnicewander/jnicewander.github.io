@@ -6,8 +6,7 @@
     text-align: right;
     
     @media only screen and (min-width: $bp-tablet) {
-        background-color: $color-white;
-        border-bottom: 1px solid $color-black;
+        background-color: rgba($color-white, .7);
     }
 
     &-link {

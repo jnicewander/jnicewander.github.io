@@ -1,0 +1,29 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: $color-gradient-orange;
+}
+.social {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+    li {
+        display: inline-block;
+    }
+
+    i {
+        display: inline-block;
+        margin: 8px;
+        padding: 10px;
+        border: 1px solid $color-white;
+        border-radius: 50%;
+
+        &:hover {
+            background-color: $color-white;
+            //box-shadow: 4px 4px solid black;
+        }
+    }
+}

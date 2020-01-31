@@ -2,10 +2,10 @@
 @import 'base/resets';
 @import 'base/typography';
 
-@import 'layout';
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/layout';
 
-@import 'components';
-
-@import 'navigation';
-
-@import 'projects';
+@import 'components/divider';
+@import 'components/projects';
