@@ -7,16 +7,25 @@ h1, h2, h3, h4 {
 }
 
 .name {
-    font-size: 1.8em;
-    color: $color-white;
-    text-shadow: 1px 1px rgb(231, 81, 90), 2px 2px rgb(231, 81, 90), 3px 3px rgb(231, 81, 90), 
-    4px 4px rgb(231, 81, 90), 5px 5px rgb(231, 81, 90);
+    font-size: 2em;
+    color: $color-offwhite;
+    text-shadow: 1px 1px $color-offred, 2px 2px $color-offred, 3px 3px $color-offred, 
+    4px 4px $color-offred, 5px 5px $color-offred;
     
     @media only screen and (min-width: $bp-tablet) {
         font-size: 6em;     
-        text-shadow: 1px 1px rgb(231, 81, 90), 2px 2px rgb(231, 81, 90), 3px 3px rgb(231, 81, 90), 
-        4px 4px rgb(231, 81, 90), 5px 5px rgb(231, 81, 90), 6px 6px rgb(231, 81, 90), 
-        7px 7px rgb(231, 81, 90), 8px 8px rgb(231, 81, 90), 9px 9px rgb(231, 81, 90), 10px 10px rgb(231, 81, 90);
+        text-shadow: 1px 1px $color-offred, 2px 2px $color-offred, 3px 3px $color-offred, 
+        4px 4px $color-offred, 5px 5px $color-offred, 6px 6px $color-offred, 
+        7px 7px $color-offred, 8px 8px $color-offred, 9px 9px $color-offred, 10px 10px $color-offred;
+    }
+}
+
+.sub-title {
+    font-size: 1em;
+    color: $color-offwhite;
+
+    @media only screen and (min-width: $bp-tablet) {
+        font-size: 2em;
     }
 }
 
@@ -24,10 +33,10 @@ h1, h2, h3, h4 {
     font-size: 1.3em;
 
     i {
-        color: $color-white;
+        color: $color-offwhite;
 
         &:hover {
-            color: $color-black;
+            color: $color-offred;
             box-shadow: 4px 4px solid black;
         }
     }

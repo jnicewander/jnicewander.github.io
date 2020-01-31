@@ -6,12 +6,13 @@
     text-align: right;
     
     @media only screen and (min-width: $bp-tablet) {
-        background-color: rgba($color-white, .7);
+        background-color: rgba($color-offwhite, .7);
     }
 
     &-link {
         display: none;
         padding: 1em;
+        color: $color-offred;
 
         @media only screen and (min-width: $bp-tablet) {
             display: inline-block;
@@ -19,12 +20,12 @@
 
         &:hover {
             color: $color-white;
-            background-color: $color-black; 
+            background-color: $color-offred; 
         }
     }
 
     &-icon {
-        color: $color-black;
+        color: $color-offwhite;
         font-size: 1.8em;
         position: absolute;
         top: .5em;
@@ -47,14 +48,14 @@ responsive class is added to
     flex-direction: column;
     text-align: left;
     padding-top: 10vh;
-    background-color: $color-white;
+    background-color: $color-offred;
     
     .nav-link {
         display: initial;
-        color: $color-black;
+        color: $color-offwhite;
         margin: 0.5em;
         padding: .5em;
-        border-bottom: 1px solid $color-black;
+        border-bottom: 1px solid $color-offwhite;
     }
 
 }

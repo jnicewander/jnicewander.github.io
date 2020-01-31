@@ -34,15 +34,26 @@ h1, h2, h3, h4 {
 }
 
 .name {
-  font-size: 1.8em;
-  color: white;
-  text-shadow: 1px 1px #e7515a, 2px 2px #e7515a, 3px 3px #e7515a, 4px 4px #e7515a, 5px 5px #e7515a;
+  font-size: 2em;
+  color: #fcffdb;
+  text-shadow: 1px 1px #e7505a, 2px 2px #e7505a, 3px 3px #e7505a, 4px 4px #e7505a, 5px 5px #e7505a;
 }
 
 @media only screen and (min-width: 768px) {
   .name {
     font-size: 6em;
-    text-shadow: 1px 1px #e7515a, 2px 2px #e7515a, 3px 3px #e7515a, 4px 4px #e7515a, 5px 5px #e7515a, 6px 6px #e7515a, 7px 7px #e7515a, 8px 8px #e7515a, 9px 9px #e7515a, 10px 10px #e7515a;
+    text-shadow: 1px 1px #e7505a, 2px 2px #e7505a, 3px 3px #e7505a, 4px 4px #e7505a, 5px 5px #e7505a, 6px 6px #e7505a, 7px 7px #e7505a, 8px 8px #e7505a, 9px 9px #e7505a, 10px 10px #e7505a;
+  }
+}
+
+.sub-title {
+  font-size: 1em;
+  color: #fcffdb;
+}
+
+@media only screen and (min-width: 768px) {
+  .sub-title {
+    font-size: 2em;
   }
 }
 
@@ -51,11 +62,11 @@ h1, h2, h3, h4 {
 }
 
 .social i {
-  color: white;
+  color: #fcffdb;
 }
 
 .social i:hover {
-  color: black;
+  color: #e7505a;
   -webkit-box-shadow: 4px 4px solid black;
           box-shadow: 4px 4px solid black;
 }
@@ -70,13 +81,14 @@ h1, h2, h3, h4 {
 
 @media only screen and (min-width: 768px) {
   .nav {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(252, 255, 219, 0.7);
   }
 }
 
 .nav-link {
   display: none;
   padding: 1em;
+  color: #e7505a;
 }
 
 @media only screen and (min-width: 768px) {
@@ -87,11 +99,11 @@ h1, h2, h3, h4 {
 
 .nav-link:hover {
   color: white;
-  background-color: black;
+  background-color: #e7505a;
 }
 
 .nav-icon {
-  color: black;
+  color: #fcffdb;
   font-size: 1.8em;
   position: absolute;
   top: .5em;
@@ -119,15 +131,15 @@ responsive class is added to
           flex-direction: column;
   text-align: left;
   padding-top: 10vh;
-  background-color: white;
+  background-color: #e7505a;
 }
 
 .responsive .nav-link {
   display: initial;
-  color: black;
+  color: #fcffdb;
   margin: 0.5em;
   padding: .5em;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #fcffdb;
 }
 
 .title {
@@ -144,7 +156,7 @@ responsive class is added to
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100vh;
+  height: 115vh;
   background: linear-gradient(45deg, rgba(146, 173, 57, 0.36) 0%, rgba(146, 173, 57, 0.36) 19%, rgba(130, 168, 72, 0.36) 19%, rgba(130, 168, 72, 0.36) 20%, rgba(163, 178, 43, 0.36) 20%, rgba(163, 178, 43, 0.36) 51%, rgba(113, 163, 86, 0.36) 51%, rgba(113, 163, 86, 0.36) 64%, rgba(97, 159, 100, 0.36) 64%, rgba(97, 159, 100, 0.36) 85%, rgba(196, 187, 15, 0.36) 85%, rgba(196, 187, 15, 0.36) 93%, rgba(179, 182, 29, 0.36) 93%, rgba(179, 182, 29, 0.36) 99%, rgba(80, 154, 114, 0.36) 99%, rgba(80, 154, 114, 0.36) 100%), linear-gradient(45deg, rgba(215, 101, 98, 0.34) 0%, rgba(215, 101, 98, 0.34) 12.5%, rgba(223, 39, 92, 0.34) 12.5%, rgba(223, 39, 92, 0.34) 25%, rgba(207, 164, 104, 0.34) 25%, rgba(207, 164, 104, 0.34) 37.5%, rgba(212, 122, 100, 0.34) 37.5%, rgba(212, 122, 100, 0.34) 50%, rgba(226, 18, 90, 0.34) 50%, rgba(226, 18, 90, 0.34) 62.5%, rgba(218, 81, 96, 0.34) 62.5%, rgba(218, 81, 96, 0.34) 75%, rgba(221, 60, 94, 0.34) 75%, rgba(221, 60, 94, 0.34) 87.5%, rgba(210, 143, 102, 0.34) 87.5%, rgba(210, 143, 102, 0.34) 100%), linear-gradient(286deg, #e7515a, #e8f941);
 }
 
@@ -161,12 +173,29 @@ responsive class is added to
   display: inline-block;
   margin: 8px;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid #fcffdb;
   border-radius: 50%;
 }
 
 .social i:hover {
-  background-color: white;
+  background-color: #fcffdb;
+}
+
+.skills {
+  background-color: #e7505a;
+  border-radius: 25px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  margin-top: -10vh;
+}
+
+.skills .skill-list {
+  margin: 1.5em;
+}
+
+.skills .skill-list .skill-item {
+  display: inline-block;
+  margin: 10px;
 }
 
 footer {
@@ -178,15 +207,6 @@ footer {
   margin: 0 auto;
   width: 100%;
   text-align: center;
-}
-
-.skills .skill-list {
-  margin: 1.5em;
-}
-
-.skills .skill-list .skill-item {
-  display: inline-block;
-  margin: 10px;
 }
 
 .about .about-content {
@@ -237,5 +257,6 @@ footer {
 
 .projects-description {
   padding: .5em;
+  color: black;
 }
 /*# sourceMappingURL=styles.css.map */

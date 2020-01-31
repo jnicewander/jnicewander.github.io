@@ -1,4 +1,4 @@
-
+// split this into accordian under components and projects under layout
 .projects {
 
     &-list {
@@ -26,5 +26,6 @@
 
     &-description {
         padding: .5em;
+        color: $color-black;
     }
 }
