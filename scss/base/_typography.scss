@@ -37,7 +37,11 @@ h1, h2, h3, h4 {
 
         &:hover {
             color: $color-offred;
-            box-shadow: 4px 4px solid black;
+            box-shadow: 4px 4px solid $color-black;
         }
     }
+}
+
+.skills {
+    color: $color-offwhite;
 }
