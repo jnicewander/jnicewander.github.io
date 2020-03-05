@@ -10,7 +10,6 @@
         margin: 1em;
         text-align: left;
         border: 1px solid $color-black;
-        border-radius: 10px;
         
         &:hover {
             box-shadow: 4px 4px 8px $color-black;
@@ -19,9 +18,8 @@
     
     &-title {
         padding: .5em;
-        border-radius: 10px 10px 0 0;
-        background-color: $color-black;
-        color: $color-white;
+        background-color: $color-offred;
+        color: $color-offwhite;
     }
 
     &-description {
