@@ -71,6 +71,10 @@ h1, h2, h3, h4 {
           box-shadow: 4px 4px solid black;
 }
 
+.skills {
+  color: #fcffdb;
+}
+
 .nav {
   position: absolute;
   display: block;
@@ -240,7 +244,6 @@ footer {
   margin: 1em;
   text-align: left;
   border: 1px solid black;
-  border-radius: 10px;
 }
 
 .projects-item:hover {
@@ -250,9 +253,8 @@ footer {
 
 .projects-title {
   padding: .5em;
-  border-radius: 10px 10px 0 0;
-  background-color: black;
-  color: white;
+  background-color: #e7505a;
+  color: #fcffdb;
 }
 
 .projects-description {
