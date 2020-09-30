@@ -1,0 +1,13 @@
+.arrow {
+    animation: bobber 4s infinite;
+}
+
+.arrow:hover {
+    
+}
+
+@keyframes bobber {
+    from {transform: translateY(0);}
+    50% {transform: translateY(10px);}
+    to {transform: translateY(0);}
+}
