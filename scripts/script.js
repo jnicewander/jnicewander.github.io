@@ -14,16 +14,24 @@ function closeMenu() {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    pageLoad();
+    pageLoad(nouns);
 });
 
 const nouns = ['animal', 'witch', 'sailor', 'ninja', 'front-end developer'];
 const insert = document.getElementById('insert');
-const display = noun => insert.innerText = noun + '.';
+const name = document.getElementById('name');
 
-function pageLoad() {
+const display = (noun) => {
+    insert.innerText = noun + '.';
+    if (insert.innerText.toLowerCase() === 'front-end developer.')  {
+        name.style.color = '#25425B';
+    }
+}
+
+
+function pageLoad(wordList) {
     let delay = 300;
-    nouns.forEach((noun, i) => {
+    wordList.forEach((noun, i) => {
         setTimeout(() => {
             display(noun);
         }, i * delay);
