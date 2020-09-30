@@ -6,18 +6,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $font-heading;
 }
 
+.hero-container nav {
+    color: $color-main;
+    font-size: 1rem;
+    width: 100%;
+}
+
 .hero-container h1 {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 700;
     color: $color-main;
+    line-height: 1;
 }
 
 .hero-container span {
-    color: $color-contrast-light;
+    color: $color-main;
 }
 
 #insert {
     display: inline-block;
     color: $color-contrast-light;
-    text-shadow: 1px 1px 2px $black;
 }
