@@ -3,12 +3,12 @@
 @import 'base/typography';
 @import 'base/body';
 
-@import 'layout/navigation';
 @import 'layout/header';
 @import 'layout/skills';
 @import 'layout/footer';
 @import 'layout/layout';
 
-@import 'components/divider';
+@import 'components/navigation';
+@import 'components/arrow';
 @import 'components/projects';
 @import 'components/container';
