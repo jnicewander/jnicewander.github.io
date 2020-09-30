@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 
 *, *::before, *::after {
@@ -19,6 +20,6 @@ ul, li {
 }
 
 a {
-    color: $color-white;
+    color: $black;
     text-decoration: none;
 }

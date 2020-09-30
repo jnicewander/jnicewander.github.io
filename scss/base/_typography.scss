@@ -1,47 +1,23 @@
 html, body {
-    font-family: $body-font;
+    font-family: $font-body;
 }
 
-h1, h2, h3, h4 {
-    font-family: $title-font;
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
 }
 
-.name {
-    font-size: 2em;
-    color: $color-offwhite;
-    text-shadow: 1px 1px $color-offred, 2px 2px $color-offred, 3px 3px $color-offred, 
-    4px 4px $color-offred, 5px 5px $color-offred;
-    
-    @media only screen and (min-width: $bp-tablet) {
-        font-size: 6em;     
-        text-shadow: 1px 1px $color-offred, 2px 2px $color-offred, 3px 3px $color-offred, 
-        4px 4px $color-offred, 5px 5px $color-offred, 6px 6px $color-offred, 
-        7px 7px $color-offred, 8px 8px $color-offred, 9px 9px $color-offred, 10px 10px $color-offred;
-    }
+.hero-container h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: $color-main;
 }
 
-.sub-title {
-    font-size: 1em;
-    color: $color-offwhite;
-
-    @media only screen and (min-width: $bp-tablet) {
-        font-size: 2em;
-    }
+.hero-container span {
+    color: $color-contrast-light;
 }
 
-.social {
-    font-size: 1.3em;
-
-    i {
-        color: $color-offwhite;
-
-        &:hover {
-            color: $color-offred;
-            box-shadow: 4px 4px solid $color-black;
-        }
-    }
-}
-
-.skills {
-    color: $color-offwhite;
+#insert {
+    display: inline-block;
+    color: $color-contrast-light;
+    text-shadow: 1px 1px 2px $black;
 }

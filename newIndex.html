@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="scss/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap" rel="stylesheet">
+    <script src="scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/74a3e3f03c.js" crossorigin="anonymous"></script>
+    <title>Justin Nicewander | Front-end Developer</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav" id="topNav">
+            <a class="nav-link" href="#skills" onClick="closeMenu()">Skills</a>
+            <a class="nav-link" href="#projects" onClick="closeMenu()">Projects</a>
+            <a class="nav-link" href="#about" onClick="closeMenu()">About Me</a>
+            <a class="nav-icon" href="javascript:void(0);" class="icon" onClick="navFunction()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </nav>
+        <div class="title">
+            <h1>Justin Nicewander</h1>
+            <p>Web Developer</p>
+            <ul>
+                <li><a href="https://github.com/jnicewander"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.freecodecamp.org/icewaterjs"><i class="fab fa-free-code-camp"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/justin-nicewander-15858978/"><i
+                            class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="mailto:jnicewander@live.com"><i class="far fa-envelope"></i></a></li>
+            </ul>
+        </div>
+        <section class="skills">
+            <h2 class="heading">Skills</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><i class="fab fa-html5"></i> HTML5</li>
+                <li class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</li>
+                <li class="skill-item"><i class="fab fa-js"></i> JavaScript</li>
+                <li class="skill-item"><i class="fab fa-sass"></i> SCSS/SASS</li>
+                <li class="skill-item"><i class="fab fa-git-alt"></i> Version Control (Git)</li>
+                <li class="skill-item"><i class="fab fa-npm"></i> Package Management (npm)</li>
+                <li class="skill-item"><i class="fab fa-adobe"></i> Adobe Illustrator</li>
+                <li class="skill-item"><i class="fab fa-figma"></i> Figma</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2 class="heading">Projects</h2>
+            <ul class="projects-list">
+                <li class="projects-item">
+                    <a href="https://jnicewander.github.io/part-converter/">
+                        <h3 class="projects-title">Part Number Converter</h3>
+                        <p class="projects-description">
+                            Static webpage using JavaScript to convert the part number entered to the part number
+                            needed.
+                        </p>
+                    </a>
+                </li>
+                <li class="projects-item">
+                    <a href="https://textshadows.com/">
+                        <h3 class="projects-title">Text Shadow Generator</h3>
+                        <p class="projects-description">
+                            Easily generate the css code for long, layered multi-colored text-shadows.
+                        </p>
+                    </a>
+                </li>
+                <li class="projects-item">
+                    <a href="https://jnicewander.github.io/survey_form/">
+                        <h3 class="projects-title">Survey Form</h3>
+                        <p class="projects-description">
+                            Static survey form with no backend, project from FreeCodeCamp.
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="about">
+            <h2 class="heading">About Me</h2>
+            <p class="about-content">I am a self-taught web developer that has focused primarily on front-end
+                technologies.
+                In April 2020, I will be attending a front-end development bootcamp for 6-months to surround myself with
+                mentors and solidify concepts I'm weak on. I also will experience coding from within a team.</p>
+        </section>
+        <hr class="divider-line">
+        <footer class="wrapper">
+            <p>Portfolio created by Justin Nicewander. &copy;2019</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

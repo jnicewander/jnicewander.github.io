@@ -1,51 +1,17 @@
 // typography
-$title-font: 'Roboto', sans-serif;
-$body-font: 'Open Sans', sans-serif;
-$regular: 400;
-$bold: 700;
+$font-heading: 'Roboto', sans-serif;
+$font-body: 'Open Sans', sans-serif;
 
 // breakpoints
 $bp-tablet: 768px;
 $bp-desktop: 1024px;
 
 // colors
-$color-black: hsl(0, 0%, 0%);
-$color-white: hsl(0, 0%, 100%);
-$color-offwhite: hsl(65, 100%, 93%);
-$color-offred: hsl(356, 76%, 61%);
-$color-accent: hsl(180, 100%, 45.1%);
-
-
-// gradients
-$color-gradient-orange: linear-gradient(45deg, rgba(146, 173, 57, 0.36) 0%, rgba(146, 173, 57, 0.36) 19%,
-    rgba(130, 168, 72, 0.36) 19%, rgba(130, 168, 72, 0.36) 20%,rgba(163, 178, 43, 0.36) 20%, 
-    rgba(163, 178, 43, 0.36) 51%,rgba(113, 163, 86, 0.36) 51%, rgba(113, 163, 86, 0.36) 64%,
-    rgba(97, 159, 100, 0.36) 64%, rgba(97, 159, 100, 0.36) 85%,rgba(196, 187, 15, 0.36) 85%, 
-    rgba(196, 187, 15, 0.36) 93%,rgba(179, 182, 29, 0.36) 93%, rgba(179, 182, 29, 0.36) 99%,
-    rgba(80, 154, 114, 0.36) 99%, rgba(80, 154, 114, 0.36) 100%),
-    linear-gradient(45deg, rgba(215, 101, 98, 0.34) 0%, rgba(215, 101, 98, 0.34) 12.5%,
-    rgba(223, 39, 92, 0.34) 12.5%, rgba(223, 39, 92, 0.34) 25%,rgba(207, 164, 104, 0.34) 25%, 
-    rgba(207, 164, 104, 0.34) 37.5%,rgba(212, 122, 100, 0.34) 37.5%, rgba(212, 122, 100, 0.34) 50%,
-    rgba(226, 18, 90, 0.34) 50%, rgba(226, 18, 90, 0.34) 62.5%,rgba(218, 81, 96, 0.34) 62.5%, 
-    rgba(218, 81, 96, 0.34) 75%,rgba(221, 60, 94, 0.34) 75%, rgba(221, 60, 94, 0.34) 87.5%,
-    rgba(210, 143, 102, 0.34) 87.5%, rgba(210, 143, 102, 0.34) 100%),
-    linear-gradient(286deg, rgb(231, 81, 90),rgb(232, 249, 65));
-$color-gradient-black: repeating-linear-gradient(135deg, rgba(145, 145, 145, 0.02) 0px, 
-    rgba(145, 145, 145, 0.02) 39px,rgba(140, 140, 140, 0.02) 39px, 
-    rgba(140, 140, 140, 0.02) 57px,rgba(9, 9, 9, 0.02) 57px, 
-    rgba(9, 9, 9, 0.02) 91px,rgba(217, 217, 217, 0.02) 91px, rgba(217, 217, 217, 0.02) 119px,
-    rgba(45, 45, 45, 0.02) 119px, rgba(45, 45, 45, 0.02) 141px,rgba(227, 227, 227, 0.02) 141px, 
-    rgba(227, 227, 227, 0.02) 184px,rgba(236, 236, 236, 0.02) 184px, rgba(236, 236, 236, 0.02) 227px,
-    rgba(124, 124, 124, 0.02) 227px, rgba(124, 124, 124, 0.02) 244px),
-    repeating-linear-gradient(135deg, rgba(39, 39, 39, 0.02) 0px, rgba(39, 39, 39, 0.02) 23px,
-    rgba(2, 2, 2, 0.02) 23px, rgba(2, 2, 2, 0.02) 55px,rgba(13, 13, 13, 0.02) 55px, rgba(13, 13, 13, 0.02) 71px,
-    rgba(44, 44, 44, 0.02) 71px, rgba(44, 44, 44, 0.02) 98px,rgba(240, 240, 240, 0.02) 98px, 
-    rgba(240, 240, 240, 0.02) 134px,rgba(182, 182, 182, 0.02) 134px, rgba(182, 182, 182, 0.02) 159px,
-    rgba(246, 246, 246, 0.02) 159px, rgba(246, 246, 246, 0.02) 174px,rgba(157, 157, 157, 0.02) 174px, 
-    rgba(157, 157, 157, 0.02) 190px),repeating-linear-gradient(135deg, rgba(145, 145, 145, 0.02) 0px, 
-    rgba(145, 145, 145, 0.02) 35px,rgba(217, 217, 217, 0.02) 35px, rgba(217, 217, 217, 0.02) 53px,
-    rgba(199, 199, 199, 0.02) 53px, rgba(199, 199, 199, 0.02) 70px,rgba(196, 196, 196, 0.02) 70px, 
-    rgba(196, 196, 196, 0.02) 114px,rgba(137, 137, 137, 0.02) 114px, rgba(137, 137, 137, 0.02) 143px,
-    rgba(249, 249, 249, 0.02) 143px, rgba(249, 249, 249, 0.02) 191px,rgba(247, 247, 247, 0.02) 191px, 
-    rgba(247, 247, 247, 0.02) 239px,rgba(38, 38, 38, 0.02) 239px, rgba(38, 38, 38, 0.02) 273px),
-    linear-gradient(90deg, rgb(69, 69, 69),rgb(3, 3, 3));
+$black: hsl(0, 0%, 0%);
+$white: hsl(0, 0%, 100%);
+$color-main: #25425B;
+$color-accent-light: #C9D6E1;
+$color-accent-dark: #647C94;
+$color-accent-alt: #64848C;
+$color-contrast: #2A0800;
+$color-contrast-light: #FF6F59;

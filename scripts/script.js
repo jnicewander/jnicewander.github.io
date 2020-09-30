@@ -11,3 +11,21 @@ function closeMenu() {
     let y = document.getElementById("topNav");
     y.classList.remove("responsive");
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    pageLoad();
+});
+
+const nouns = ['animal', 'witch', 'sailor', 'ninja', 'front-end developer'];
+const insert = document.getElementById('insert');
+const display = noun => insert.innerText = noun + '.';
+
+function pageLoad() {
+    let delay = 300;
+    nouns.forEach((noun, i) => {
+        setTimeout(() => {
+            display(noun);
+        }, i * delay);
+    });
+}
