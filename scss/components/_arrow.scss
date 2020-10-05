@@ -1,13 +1,21 @@
 .arrow {
-    animation: bobber 4s infinite;
-}
-
-.arrow:hover {
+    flex-basis: 25%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    animation: bobber 3s infinite;
     
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    
+    }
 }
 
 @keyframes bobber {
     from {transform: translateY(0);}
-    50% {transform: translateY(10px);}
+    50% {transform: translateY(-5px);}
     to {transform: translateY(0);}
 }
