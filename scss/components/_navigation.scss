@@ -1,3 +1,23 @@
 nav {
-    width: 90vw;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+
+    a {
+        margin-bottom: 2vh;
+    }
+
+    a, div {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    div {
+        
+        width: 100%;
+    }
+
+
 }
