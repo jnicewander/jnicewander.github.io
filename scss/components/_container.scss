@@ -3,6 +3,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/img/pexels-lumn-167699.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;;
     width: 100vw;
     height: 100vh;
 }
@@ -12,45 +24,16 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative;
-    width: 90vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
     padding: 0 1.2rem;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0.25) 75%, rgba(255,255,255,0) 100%);
-}
-
-.hero-container>* {
-    flex-basis: 33%;
-    display: flex;
-    flex-direction: row;
-}
-
-.hero-container {
-    nav {
-        align-items: flex-start;
-        justify-content: flex-end;
-    }
-
-    div {
-        align-items: center;
-
-    }
-
-    .center {
-        width: 100%;
-        align-items: flex-end;
+    background: rgba(0, 0, 0, 0.8);
+    // background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0.25) 75%, rgba(255,255,255,0) 100%);
+    
+    .content {
+        display: flex;
+        flex-basis: 50%;
         justify-content: center;
-    }
-
-    a {
-        justify-content: center;
-        align-items: flex-end;
-
-
-        img {
-            max-width: 100%;
-            height: auto;
-            width: 10vw;
-        }
-    }
+        flex-direction: column;
+    }    
 }
