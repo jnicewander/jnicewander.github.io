@@ -17,16 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
     pageLoad(nouns);
 });
 
-const nouns = ['animal', 'witch', 'sailor', 'ninja', 'front-end developer'];
+const nouns = ['nerd', 'father', 'longboarder', 'brother', 'Lions fan', 'skateboarder', 'son', 'GC alumni', 'friend', 'front-end developer'];
 const insert = document.getElementById('insert');
 const name = document.getElementById('name');
 
-const display = (noun) => {
-    insert.innerText = noun + '.';
-    if (insert.innerText.toLowerCase() === 'front-end developer.')  {
-        name.style.color = '#25425B';
-    }
-}
+const display = noun => insert.innerText = noun + '.';
+
 
 
 function pageLoad(wordList) {
